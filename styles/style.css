@@ -9,10 +9,12 @@ body {
 }
 
 .navbar-brand {
+      color: #e8930c !important;
       font-size: 1.6rem;
 }
 
 .nav-link {
+      color: #e8930c !important;
       font-family: 'Montserrat', sans-serif;
       font-size: 1.4rem;
 }
@@ -55,20 +57,14 @@ body {
       font-weight: 100;
 }
 
-/* SECTION COUNTRIES */
-.countries {
-      margin: 5% 5%;
+
+/* SECTION SERVICES */
+.services {
+      margin: 10% 0;
 }
-  
-.countries-title-38 {
-      color: #060e9f;
-      font-size: 10rem;
-      letter-spacing: 4.67px;
-      line-height: 0.9;
-}
-  
-.countries-title-text {
-      color: #060e9f;
+
+.services-title-text {
+      color: #e8930c;
       font-size: 48px;
       font-weight: 500;
       line-height: 65px;
@@ -76,14 +72,44 @@ body {
       letter-spacing: 4.67px;
 }
   
-  .countries-text {
+.services-text {
       color: #4a4a4a;
       font-family: Montserrat;
       font-size: 16px;
       font-weight: 400;
       letter-spacing: 1.11px;
       text-align: left;
-  }
+}
+
+/* SECTION COUNTRIES */
+.countries {
+      margin: 5% 5%;
+}
+  
+.countries-title-38 {
+      color: #e8930c;
+      font-size: 10rem;
+      letter-spacing: 4.67px;
+      line-height: 0.9;
+}
+  
+.countries-title-text {
+      color: #e8930c;
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 65px;
+      text-transform: uppercase;
+      letter-spacing: 4.67px;
+}
+  
+.countries-text {
+      color: #4a4a4a;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 1.11px;
+      text-align: left;
+}
 
 
 /* SECTION FOOTER */
