@@ -28,6 +28,10 @@ body {
       align-items:center; 
 }
 
+.carousel-bg {
+      background-color: #292929;
+}
+
 .carousel-item {
       height: 80vh;
       background-size:cover !important;
@@ -65,7 +69,7 @@ body {
 
 .services-title-text {
       color: #e8930c;
-      font-size: 48px;
+      font-size: 4.8rem;
       font-weight: 500;
       line-height: 65px;
       text-transform: uppercase;
@@ -75,7 +79,7 @@ body {
 .services-text {
       color: #4a4a4a;
       font-family: Montserrat;
-      font-size: 16px;
+      font-size: 1.6rem;
       font-weight: 400;
       letter-spacing: 1.11px;
       text-align: left;
@@ -95,7 +99,7 @@ body {
   
 .countries-title-text {
       color: #e8930c;
-      font-size: 48px;
+      font-size: 4.8rem;
       font-weight: 500;
       line-height: 65px;
       text-transform: uppercase;
@@ -105,7 +109,7 @@ body {
 .countries-text {
       color: #4a4a4a;
       font-family: Montserrat;
-      font-size: 16px;
+      font-size: 1.6rem;
       font-weight: 400;
       letter-spacing: 1.11px;
       text-align: left;
@@ -134,7 +138,7 @@ body {
 .footer-uzer {
       color: #38383a;
       font-family: "Montserrat";
-      font-size: 12px;
+      font-size: 1.2rem;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 1.71px;
@@ -144,7 +148,7 @@ body {
 .footer-copyright {
       color: #38383a;
       font-family: "Montserrat";
-      font-size: 12px;
+      font-size: 1.2rem;
       font-weight: 400;
       line-height: 24px;
       letter-spacing: 1.71px;
@@ -152,6 +156,6 @@ body {
   
 .small-icon {
       color: #38383a;
-      font-size: 16px;
+      font-size: 2rem;
       margin: 0 2%;
 }

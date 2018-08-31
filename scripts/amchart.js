@@ -17,8 +17,6 @@ AmCharts.makeChart("map",{
                 "width": 80,
                 "height": 40,
                 "pixelMapperLogo": false,
-                "imageURL": "http://pixelmap.amcharts.com/static/img/logo-black.svg",
-                "url": "http://www.amcharts.com"
             },
             {
                 "selectable": true,
@@ -85,7 +83,7 @@ AmCharts.makeChart("map",{
         "selectedBrightness": 20
     },
     "zoomControl": {
-        "zoomControlEnabled": true,
+        "zoomControlEnabled": false,
         "homeButtonEnabled": false,
         "panControlEnabled": false,
         "right": 38,
