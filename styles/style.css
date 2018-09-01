@@ -17,7 +17,7 @@ body {
 .nav-link {
       color: #e8930c !important;
       font-family: 'Montserrat', sans-serif;
-      font-size: 1.4rem;
+      font-size: 1.6rem;
 }
 
 .bg-shadow {
@@ -196,7 +196,7 @@ ul {
       }
 
       .navbar-brand {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
       }
 
       .carouselTitle {
@@ -210,5 +210,23 @@ ul {
       .services-title-info {
             margin: 3% 1%;
             text-align: left;
+      }
+}
+
+@media only screen and (max-width: 320px) {
+      body {
+        padding-top: 0px;
+      }
+
+      .navbar-brand {
+            font-size: 1.25rem;
+      }
+
+      .carouselTitle {
+            font-size: 3rem;
+      }
+
+      .carouselText {
+            font-size: 1.5rem;
       }
 }
