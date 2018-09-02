@@ -62,20 +62,29 @@ body {
       font-weight: 100;
 }
 
-
-/* SECTION SERVICES */
-.services {
-      margin: 5% 0;
-      padding: 0 5%;
-}
-
-.services-title-text {
+/* COMMON FONT RELETAD STYLES */
+.section-title-text {
       color: #e8930c;
       font-size: 4.8rem;
       font-weight: 500;
       line-height: 65px;
       text-transform: uppercase;
       letter-spacing: 4.67px;
+}
+
+.section-text {
+      color: #4a4a4a;
+      font-family: Montserrat;
+      font-size: 1.8rem;
+      font-weight: 400;
+      letter-spacing: 1.11px;
+      text-align: left;
+}
+
+/* SECTION SERVICES */
+.services {
+      margin: 5% 0;
+      padding: 0 5%;
 }
 
 .services-title-info {
@@ -87,15 +96,6 @@ body {
       line-height: 3rem;
       text-align: center;
       margin: 3% 15%;
-}
-  
-.services-text {
-      color: #4a4a4a;
-      font-family: Montserrat;
-      font-size: 1.8rem;
-      font-weight: 400;
-      letter-spacing: 1.11px;
-      text-align: left;
 }
 
 /* SECTION SKILLS */
@@ -125,25 +125,12 @@ body {
       letter-spacing: 4.67px;
       line-height: 0.9;
 }
-  
-.countries-title-text {
-      color: #e8930c;
-      font-size: 4.8rem;
-      font-weight: 500;
-      line-height: 65px;
-      text-transform: uppercase;
-      letter-spacing: 4.67px;
-}
-  
-.countries-text {
-      color: #4a4a4a;
-      font-family: Montserrat;
-      font-size: 1.6rem;
-      font-weight: 400;
-      letter-spacing: 1.11px;
-      text-align: left;
-}
 
+/* SECTION REFERENCES */
+.references {
+      padding: 5% 5%;
+      border-bottom: 1px solid #f4f4f4;
+}
 
 /* SECTION FOOTER */
 .footer-section{
@@ -153,29 +140,17 @@ body {
       padding-left: 5%;
       padding-right: 5%;
 }
-  
 
 .footer-section ul {
       margin-top: 30px;
       list-style: none;
 }
   
-
-.footer-uzer {
+.footer-unicraft {
       color: #38383a;
       font-family: "Montserrat";
       font-size: 1.2rem;
       font-weight: 400;
-      text-transform: uppercase;
-      letter-spacing: 1.71px;
-}
-  
-.footer-copyright {
-      color: #38383a;
-      font-family: "Montserrat";
-      font-size: 1.2rem;
-      font-weight: 400;
-      line-height: 24px;
       letter-spacing: 1.71px;
 }
   
@@ -190,7 +165,7 @@ ul {
       padding: 0;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 770px) {
       body {
         padding-top: 0px;
       }
@@ -211,22 +186,16 @@ ul {
             margin: 3% 1%;
             text-align: left;
       }
+
+      .img-col-sm {
+            margin: 5% 0;
+      }
 }
 
 @media only screen and (max-width: 320px) {
-      body {
-        padding-top: 0px;
-      }
 
       .navbar-brand {
             font-size: 1.25rem;
       }
 
-      .carouselTitle {
-            font-size: 3rem;
-      }
-
-      .carouselText {
-            font-size: 1.5rem;
-      }
 }
