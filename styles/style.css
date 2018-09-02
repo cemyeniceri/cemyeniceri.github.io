@@ -14,11 +14,20 @@ body {
       font-size: 1.6rem;
 }
 
-.nav-link {
+.nav-link:link,
+.nav-link:visited {
       color: #e8930c !important;
       font-family: 'Montserrat', sans-serif;
       font-size: 1.6rem;
+      border-bottom: 1px solid transparent;
+      transition: border-bottom 0.2s;
 }
+
+.nav-link:hover,
+.nav-link:active {
+      border-bottom: 1px solid #e8930c;
+}
+
 
 .bg-shadow {
       box-shadow: 0px 2px 25px -6px rgba(0,0,0,0.75);
@@ -62,7 +71,11 @@ body {
       font-weight: 100;
 }
 
-/* COMMON FONT RELETAD STYLES */
+/* COMMON STYLES */
+.layout{
+      padding: 100px 100px;
+}
+
 .section-title-text {
       color: #e8930c;
       font-size: 4.8rem;
@@ -82,10 +95,6 @@ body {
 }
 
 /* SECTION SERVICES */
-.services {
-      padding: 5% 5%;
-}
-
 .services-title-info {
       color: #4a4a4a;
       font-family: Montserrat;
@@ -100,7 +109,6 @@ body {
 /* SECTION SKILLS */
 .skills {
       background-color: #f4f4f4;
-      padding: 5% 5%;
 }
 
 .skill-items {
@@ -113,22 +121,17 @@ body {
       margin-bottom: 3%;
 }
 
-/* SECTION COUNTRIES */
-.countries {
-      padding: 5% 5%;
+/* SECTION REFERENCES */
+.references {
+      border-bottom: 1px solid #f4f4f4;
 }
-  
+
+/* SECTION COUNTRIES */
 .countries-title-38 {
       color: #e8930c;
       font-size: 10rem;
       letter-spacing: 4.67px;
       line-height: 0.9;
-}
-
-/* SECTION REFERENCES */
-.references {
-      padding: 5% 5%;
-      border-bottom: 1px solid #f4f4f4;
 }
 
 /* SECTION FOOTER */
@@ -161,7 +164,7 @@ body {
 
 ul {
       margin-top: 0 !important;
-      padding: 0;
+      padding: 10px;
 }
 
 @media only screen and (max-width: 770px) {
@@ -189,6 +192,10 @@ ul {
       .img-col-sm {
             margin: 5% 0;
       }
+
+      .layout{
+            padding: 70px 10px;
+      }
 }
 
 @media only screen and (max-width: 320px) {
@@ -197,4 +204,23 @@ ul {
             font-size: 1.25rem;
       }
 
+}
+
+/* Animations */
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4 {
+      opacity: 0;
+  }
+
+.js--wp-1 .animated,
+.js--wp-2 .animated,
+.js--wp-3 .animated,
+.js--wp-4 .animated {
+    opacity: 1;
+}
+
+.js--wp-1 {
+    animation-duration: 1s;
 }

@@ -3,12 +3,10 @@ $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
 
-// $(document).ready(function () {
+$(document).ready(function () {
 
-// });
-
-// Select all links with hashes
-$('a[href*="#"]')
+  // Select all links with hashes
+  $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
@@ -43,3 +41,33 @@ $('a[href*="#"]')
       }
     }
   });
+
+
+  /* Animations on scroll */
+  $('.js--wp-1').waypoint(function (direction) {
+    $('.js--wp-1').addClass('animated fadeIn');
+    }, {
+      offset: '75%'
+  });
+
+  $('.js--wp-2').waypoint(function (direction) {
+    $('.js--wp-2').addClass('animated fadeInLeft');
+  }, {
+    offset: '75%'
+  });
+
+  $('.js--wp-3').waypoint(function (direction) {
+    $('.js--wp-3').addClass('animated fadeInRight');
+  }, {
+    offset: '75%'
+  });
+
+  
+  $('.js--wp-4').waypoint(function (direction) {
+  $('.js--wp-4').addClass('animated bounceIn');
+  }, {
+    offset: '75%'
+  });
+
+
+});
