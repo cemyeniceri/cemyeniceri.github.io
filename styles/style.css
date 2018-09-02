@@ -176,11 +176,11 @@ ul {
 @media only screen and (max-width: 770px) {
 
       .navbar-brand {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
       }
 
       .carousel-item {
-            height: 50vh;
+            height: 70vh;
       }
 
       .carouselTitle {
@@ -204,15 +204,6 @@ ul {
             padding: 70px 10px;
       }
 }
-
-@media only screen and (max-width: 320px) {
-
-      .navbar-brand {
-            font-size: 1.25rem;
-      }
-
-}
-
 /* Animations */
 .js--wp-1,
 .js--wp-2,
