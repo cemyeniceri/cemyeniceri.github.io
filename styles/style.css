@@ -173,7 +173,7 @@ ul {
       padding: 10px;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 750px) {
 
       .navbar-brand {
             font-size: 1.4rem;
