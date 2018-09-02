@@ -83,8 +83,7 @@ body {
 
 /* SECTION SERVICES */
 .services {
-      margin: 5% 0;
-      padding: 0 5%;
+      padding: 5% 5%;
 }
 
 .services-title-info {
@@ -116,7 +115,7 @@ body {
 
 /* SECTION COUNTRIES */
 .countries {
-      margin: 5% 5%;
+      padding: 5% 5%;
 }
   
 .countries-title-38 {
