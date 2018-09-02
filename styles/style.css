@@ -6,7 +6,6 @@ body {
       text-rendering: optimizeLegibility;
       font-family: 'Roboto', sans-serif;
       font-size: 1.6rem;
-      padding-top: 60px;
 }
 
 .navbar-brand {
@@ -175,12 +174,13 @@ ul {
 }
 
 @media only screen and (max-width: 770px) {
-      body {
-        padding-top: 0px;
-      }
 
       .navbar-brand {
             font-size: 1.5rem;
+      }
+
+      .carousel-item {
+            height: 50vh;
       }
 
       .carouselTitle {

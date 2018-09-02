@@ -3,8 +3,6 @@ $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
 
-$(document).ready(function () {
-
   // Select all links with hashes
   $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -68,6 +66,3 @@ $(document).ready(function () {
   }, {
     offset: '75%'
   });
-
-
-});
