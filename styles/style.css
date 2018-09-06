@@ -10,7 +10,7 @@ body {
 
 .navbar-brand {
       color: #e8930c !important;
-      font-size: 1.8rem;
+      font-size: 2rem;
 }
 
 .nav-link:link,
@@ -188,12 +188,12 @@ ul {
 /* Small Tablet to Big Tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
       .navbar-brand {
-            font-size: 2rem;
+            font-size: 3.5rem;
       }
 
       .nav-link:link,
       .nav-link:visited {
-            font-size: 2rem;
+            font-size: 2.5rem;
       }
 
       .carousel-item {
