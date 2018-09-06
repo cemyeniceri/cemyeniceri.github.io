@@ -4,13 +4,13 @@ html{
   
 body {
       text-rendering: optimizeLegibility;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto', sans-serif !important;
       font-size: 1.6rem;
 }
 
 .navbar-brand {
       color: #e8930c !important;
-      font-size: 1.6rem;
+      font-size: 1.8rem;
 }
 
 .nav-link:link,
@@ -41,6 +41,11 @@ body {
       -webkit-box-align:center;
           -ms-flex-align:center;
               align-items:center; 
+}
+
+.unicraft-logo {
+      width: 50px;
+      height: 50px;
 }
 
 .carousel-bg {
@@ -84,7 +89,7 @@ body {
 .section-title-text {
       color: #e8930c;
       font-size: 4.8rem;
-      font-weight: 500;
+      font-weight: 400;
       line-height: 65px;
       text-transform: uppercase;
       letter-spacing: 4.67px;
@@ -174,17 +179,17 @@ ul {
 }
 
 /* Big Tablet to 1200px */
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
       .navbar-brand {
-            color: red !important;
+            color: yellow;
       }
-}
+} */
 
 /* Small Tablet to Big Tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-      .navbar-brand {
-            color: blue !important;
-      }
+      /* .navbar-brand {
+            color: red !important;
+      } */
 
       .carousel-item {
             height: 600px;
@@ -194,19 +199,36 @@ ul {
             font-size: 3.5rem;
       }
 
+      .carouselText {
+            font-size: 2.5rem;
+      }
+
+      .img-col-sm {
+            margin-top: 10%;
+      }
+
 }
 
 /* Small Phones to Small Tablet: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-      .navbar-brand {
-            color: yellow !important;
+      /* .navbar-brand {
+            color: blue !important;
+      } */
+
+      .layout{
+            padding: 100px 10px;
       }
+
 }
 
 /* Small Phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-      .navbar-brand {
+      /* .navbar-brand {
             color: green !important;
+      } */
+
+      .carouselTitle {
+            display: none;
       }
 }
 
