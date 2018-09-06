@@ -185,6 +185,18 @@ ul {
       .navbar-brand {
             color: blue !important;
       }
+
+      .carousel-item {
+            height: 50vh;
+      }
+
+      .carouselTitle {
+            font-size: 3.5rem;
+      }
+
+      .carouselText {
+            display: none;
+      }
 }
 
 /* Small Phones to Small Tablet: from 481px to 767px */
