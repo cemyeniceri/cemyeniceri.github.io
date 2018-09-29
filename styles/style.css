@@ -210,6 +210,23 @@ ul {
     }
 }
 
+/* Portrait mode */
+@media screen and (orientation: portrait) {
+    .carousel-item {
+        height: 50vh;
+        min-height: 300px;
+    }
+
+    .section-text {
+        font-size: 2.1rem;
+    }
+
+    .services-title-info {
+        font-size: 2.3rem;
+        margin: 3% 5%;
+    }
+}
+
 /* Animations */
 .js--wp-1,
 .js--wp-2,
