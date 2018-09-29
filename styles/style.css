@@ -1,240 +1,213 @@
-html{
-      font-size: 62.5%; 
+html {
+    font-size: 10px;
 }
-  
+
 body {
-      text-rendering: optimizeLegibility;
-      font-family: 'Roboto', sans-serif !important;
-      font-size: 1.6rem;
+    text-rendering: optimizeLegibility;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 1.6rem;
 }
 
 .navbar-brand {
-      color: #e8930c !important;
-      font-size: 2rem;
+    color: #e8930c !important;
+    font-size: 2rem;
 }
 
 .nav-link:link,
 .nav-link:visited {
-      color: #e8930c !important;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.6rem;
-      border-bottom: 1px solid transparent;
-      -webkit-transition: border-bottom 0.2s;
-      transition: border-bottom 0.2s;
+    color: #e8930c !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
 }
 
 .nav-link:hover,
 .nav-link:active {
-      border-bottom: 1px solid #e8930c;
+    border-bottom: 1px solid #e8930c;
 }
 
-
 .bg-shadow {
-      -webkit-box-shadow: 0px 2px 25px -6px rgba(0,0,0,0.75);
-              box-shadow: 0px 2px 25px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 25px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 25px -6px rgba(0, 0, 0, 0.75);
 }
 
 .box {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align:center;
-          -ms-flex-align:center;
-              align-items:center; 
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .unicraft-logo {
-      width: 50px;
-      height: 50px;
+    width: 50px;
+    height: 50px;
 }
 
 .carousel-bg {
-      background-color: #292929;
+    background-color: #292929;
 }
 
 .carousel-item {
-      height: 880px;
-      background-size:cover !important;
-      background-position:center !important;
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .carousel-item:after {
-    content:"";
-    display:block;
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(0,0,0,0.1);
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .carouselTitle {
-      color:#eee;
-      font-size: 6rem;
-      font-weight: 300;
-      margin: 1.5%;
+    color: #eee;
+    font-size: 6rem;
+    font-weight: 300;
+    margin: 1.5%;
 }
 
 .carouselText {
-      font-size: 3rem;
-      font-weight: 100;
+    font-size: 3rem;
+    font-weight: 100;
 }
 
 /* COMMON STYLES */
-.layout{
-      padding: 100px 100px;
+.layout {
+    padding: 100px 100px;
 }
 
 .section-title-text {
-      color: #e8930c;
-      font-size: 4.8rem;
-      font-weight: 400;
-      line-height: 65px;
-      text-transform: uppercase;
-      letter-spacing: 4.67px;
+    color: #e8930c;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 65px;
+    text-transform: uppercase;
+    letter-spacing: 4.67px;
 }
 
 .section-text {
-      color: #4a4a4a;
-      font-family: Montserrat;
-      font-size: 1.8rem;
-      font-weight: 400;
-      letter-spacing: 1.11px;
-      text-align: left;
+    color: #4a4a4a;
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 1.11px;
+    text-align: left;
 }
 
 /* SECTION SERVICES */
 .services-title-info {
-      color: #4a4a4a;
-      font-family: Montserrat;
-      font-size: 1.8rem;
-      font-weight: 400;
-      letter-spacing: 1.11px;
-      line-height: 3rem;
-      text-align: center;
-      margin: 3% 15%;
+    color: #4a4a4a;
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 1.11px;
+    line-height: 3rem;
+    text-align: center;
+    margin: 3% 15%;
 }
 
 /* SECTION SKILLS */
 .skills {
-      background-color: #f4f4f4;
+    background-color: #f4f4f4;
 }
 
 .skill-items {
-      margin: 0 5%;
+    margin: 0 5%;
 }
 
 .skill-items-title {
-      color: #e8930c;
-      font-size: 2.2rem;
-      margin-bottom: 3%;
+    color: #e8930c;
+    font-size: 2.2rem;
+    margin-bottom: 3%;
 }
 
 /* SECTION REFERENCES */
 .references {
-      border-bottom: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
 }
 
 /* SECTION COUNTRIES */
 .countries-title-38 {
-      color: #e8930c;
-      font-size: 10rem;
-      letter-spacing: 4.67px;
-      line-height: 0.9;
+    color: #e8930c;
+    font-size: 10rem;
+    letter-spacing: 4.67px;
+    line-height: 0.9;
 }
 
 /* SECTION FOOTER */
-.footer-section{
-      -webkit-box-shadow: 0px -2px 25px -6px rgba(0,0,0,0.75);
-              box-shadow: 0px -2px 25px -6px rgba(0,0,0,0.75);
-      padding-top: 1%;
-      padding-bottom: 0%;
-      padding-left: 5%;
-      padding-right: 5%;
+.footer-section {
+    -webkit-box-shadow: 0px -2px 25px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -2px 25px -6px rgba(0, 0, 0, 0.75);
+    padding-top: 1%;
+    padding-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .footer-section ul {
-      margin-top: 30px;
-      list-style: none;
+    margin-top: 30px;
+    list-style: none;
 }
-  
+
 .footer-unicraft {
-      color: #38383a;
-      font-family: "Montserrat";
-      font-size: 1.2rem;
-      font-weight: 400;
-      letter-spacing: 1.71px;
+    color: #38383a;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1.71px;
 }
-  
+
 .small-icon {
-      color: #38383a;
-      font-size: 2rem;
-      margin: 0 2%;
+    color: #38383a;
+    font-size: 2rem;
+    margin: 0 2%;
 }
 
 ul {
-      margin-top: 0 !important;
-      padding: 10px;
+    margin-top: 0 !important;
+    padding: 10px;
 }
-
-/* Big Tablet to 1200px */
-/* @media only screen and (max-width: 1200px) {
-      .navbar-brand {
-            color: yellow;
-      }
-} */
 
 /* Small Tablet to Big Tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-      .navbar-brand {
-            font-size: 3.5rem;
-      }
+    .carouselTitle {
+        font-size: 3.5rem;
+    }
 
-      .nav-link:link,
-      .nav-link:visited {
-            font-size: 2.5rem;
-      }
+    .carouselText {
+        font-size: 2.5rem;
+    }
 
-      .carousel-item {
-            height: 600px;
-      }
-
-      .carouselTitle {
-            font-size: 3.5rem;
-      }
-
-      .carouselText {
-            font-size: 2.5rem;
-      }
-
-      .img-col-sm {
-            margin-top: 10%;
-      }
-
+    .img-col-sm {
+        margin-top: 10%;
+    }
 }
 
 /* Small Phones to Small Tablet: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-      /* .navbar-brand {
-            color: blue !important;
-      } */
-
-      .layout{
-            padding: 100px 10px;
-      }
-
+    .layout {
+        padding: 100px 10px;
+    }
 }
 
 /* Small Phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-      /* .navbar-brand {
-            color: green !important;
-      } */
-
-      .carouselTitle {
-            display: none;
-      }
+    .carouselTitle {
+        display: none;
+    }
 }
 
 /* Animations */
@@ -242,8 +215,8 @@ ul {
 .js--wp-2,
 .js--wp-3,
 .js--wp-4 {
-      opacity: 0;
-  }
+    opacity: 0;
+}
 
 .js--wp-1 .animated,
 .js--wp-2 .animated,
@@ -254,5 +227,5 @@ ul {
 
 .js--wp-1 {
     -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-duration: 1s;
 }

@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="eng">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UniCraft Solutions</title>
     <link rel="icon" type="image/png" href="./img/favicon_izci.jpg">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400|Roboto:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto:100,300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="./styles/animate.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <header id="home">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light bg-shadow">
-            <a class="navbar-brand" href="#home">
-                <div class="box">
-                    <img class="unicraft-logo" src="./img/favicon_izci.jpg"alt="favicon">
-                    <span class="text-uppercase pl-3">UnıCraft Solutıons</span>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-shadow fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <div class="box">
+                        <img class="unicraft-logo" src="./img/favicon_izci.jpg" alt="favicon">
+                        <span class="text-uppercase pl-3">UnıCraft Solutıons</span>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active mr-5">
+                            <a class="nav-link text-uppercase" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mr-5">
+                            <a class="nav-link text-uppercase" href="#services">ServIces</a>
+                        </li>
+                        <li class="nav-item mr-5">
+                            <a class="nav-link text-uppercase" href="#skills">SkIlls</a>
+                        </li>
+                        <li class="nav-item mr-5">
+                            <a class="nav-link text-uppercase" href="#references">References</a>
+                        </li>
+                        <li class="nav-item mr-5">
+                            <a class="nav-link text-uppercase" href="#contact">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                <li class="nav-item active mr-5">
-                    <a class="nav-link text-uppercase" href="#home">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link text-uppercase" href="#services">ServIces</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link text-uppercase" href="#skills">SkIlls</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link text-uppercase" href="#references">References</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link text-uppercase" href="#contact">Contact</a>
-                </li>
-                </ul>
             </div>
         </nav>
     </header>
@@ -54,29 +60,29 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active" style="background:url('./img/1.jpg')">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" style="background-image:url('./img/1.jpg')">
                 <div class="carousel-caption d-none d-block">
                     <h1 class="carouselTitle">BackEnd Solutions</h1>
                     <p class="carouselText">Simple, clean and reactive solutions for industry</p>
                 </div>
             </div>
 
-            <div class="carousel-item" style="background:url('./img/2.jpg')">
+            <div class="carousel-item" style="background-image:url('./img/2.jpg')">
                 <div class="carousel-caption d-none d-block">
                     <h1 class="carouselTitle">FrontEnd Solutions</h1>
                     <p class="carouselText">Responsible FrontEnd design with browser compability</p>
                 </div>
             </div>
 
-            <div class="carousel-item" style="background:url('./img/3.jpg')">
+            <div class="carousel-item" style="background-image:url('./img/3.jpg')">
                 <div class="carousel-caption d-none d-block">
                     <h1 class="carouselTitle">Big Data Solutions</h1>
                     <p class="carouselText">Scalability, high performance, availability, cost effectiveness</p>
                 </div>
             </div>
 
-            <div class="carousel-item" style="background:url('./img/4.jpg')">
+            <div class="carousel-item" style="background-image:url('./img/4.jpg')">
                 <div class="carousel-caption d-none d-block">
                     <h1 class="carouselTitle">CI &amp; CD DevOps</h1>
                     <p class="carouselText">Continuous process improvement with strong experience</p>
@@ -98,7 +104,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h1 class="section-title-text mb-5">Modern ServIces</h1>
-                    <p class="section-text mb-3">UniCraft is a company of motivated, disiplined and passionate software developers. We are building the effective solutions to make our customers happier than ever.</p>
+                    <p class="section-text mb-3">UniCraft is a company of motivated, disiplined and passionate software
+                        developers. We are building the effective solutions to make our customers happier than ever.</p>
                     <ul class="section-text">
                         <li class="mb-2">Coaching and mentoring</li>
                         <li class="mb-2">End to end analysis</li>
@@ -120,38 +127,52 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="section-title-text text-center mb-5">SkIlls</h1>
-                    <p class="services-title-info">We are software crafters. We've been living our profession for a long time. We believe in ethical development, craftsmanship, professionalism, agile and lean mindset, devops culture and continuous delivery. We gained our skills by working 10+ years with motivation, discipline and passion in scalable and high volume traffic environments.</p>
+                    <p class="services-title-info">We are software crafters. We've been living our profession for a
+                        long time. We believe in ethical development, craftsmanship, professionalism, agile and lean
+                        mindset, devops culture and continuous delivery. We gained our skills by working 10+ years with
+                        motivation, discipline and passion in scalable and high volume traffic environments.</p>
                 </div>
             </div>
             <div class="skill-items">
                 <div class="row">
                     <div class="col-lg-6 p-3">
-                        <h2 class="skill-items-title"><span class="mr-3"><i class="fab fa-react"></i></span>C-Level Experience</h2>
-                        <p class="section-text">People management, talent hiring, recruitment, team building, effective leadership, entrepreneurship, company building.</p>
+                        <h2 class="skill-items-title"><span class="mr-3"><i class="fab fa-react"></i></span>C-Level
+                            Experience</h2>
+                        <p class="section-text">People management, talent hiring, recruitment, team building, effective
+                            leadership, entrepreneurship, company building.</p>
                     </div>
                     <div class="col-lg-6 p-3">
-                        <h2 class="skill-items-title"><span class="mr-3"><i class="fas fa-diagnoses"></i></span>Domain Expert</h2>
-                        <p class="section-text">Managing product development for years in fintech and e-commerce sectors. Wide experience as product managers and owners.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 p-3">
-                        <h2 class="skill-items-title"><span class="mr-3"><i class="far fa-compass"></i></span>Technical Consultancy</h2>
-                        <p class="section-text">Leading software developments teams, forming systems to build A-class engineers, end-to-end software development experience</p>
-                    </div>
-                    <div class="col-lg-6 p-3">
-                        <h2 class="skill-items-title"><span class="mr-3"><i class="fas fa-cubes"></i></span>Agile Development</h2>
-                        <p class="section-text">Practitioner, consultant, trainer and speaker about Agile and Lean mindset, cultural shift, Scrum framework and XP practices.</p>
+                        <h2 class="skill-items-title"><span class="mr-3"><i class="fas fa-diagnoses"></i></span>Domain
+                            Expert</h2>
+                        <p class="section-text">Managing product development for years in fintech and e-commerce
+                            sectors. Wide experience as product managers and owners.</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 p-3">
-                        <h2 class="skill-items-title"><span class="mr-3"><i class="fas fa-code"></i></span>Extreme Programming</h2>
-                        <p class="section-text">Programming in pairs for years, code review, branching models, TDD, automation, SDLC, unit testing, clean code enthusiast.</p>
+                        <h2 class="skill-items-title"><span class="mr-3"><i class="far fa-compass"></i></span>Technical
+                            Consultancy</h2>
+                        <p class="section-text">Leading software developments teams, forming systems to build A-class
+                            engineers, end-to-end software development experience</p>
+                    </div>
+                    <div class="col-lg-6 p-3">
+                        <h2 class="skill-items-title"><span class="mr-3"><i class="fas fa-cubes"></i></span>Agile
+                            Development</h2>
+                        <p class="section-text">Practitioner, consultant, trainer and speaker about Agile and Lean
+                            mindset, cultural shift, Scrum framework and XP practices.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 p-3">
+                        <h2 class="skill-items-title"><span class="mr-3"><i class="fas fa-code"></i></span>Extreme
+                            Programming</h2>
+                        <p class="section-text">Programming in pairs for years, code review, branching models, TDD,
+                            automation, SDLC, unit testing, clean code enthusiast.</p>
                     </div>
                     <div class="col-lg-6 p-3">
                         <h2 class="skill-items-title"><span class="mr-3"><i class="far fa-comments"></i></span>Influencer</h2>
-                        <p class="section-text">Public speakers at regional and international conferences. Participates as speakers at other companies' local meetups.</p>
+                        <p class="section-text">Public speakers at regional and international conferences. Participates
+                            as speakers at other companies' local meetups.</p>
                     </div>
                 </div>
             </div>
@@ -163,7 +184,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="section-title-text text-center mb-5">References</h1>
-                    <p class="services-title-info">We achieved a lot by creating the out of the box solutions within the deadline.We are ready to work with you.</p>
+                    <p class="services-title-info">We achieved a lot by creating the out of the box solutions within
+                        the deadline.We are ready to work with you.</p>
                 </div>
             </div>
 
@@ -183,54 +205,57 @@
 
     <section class="layout" id="contact">
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-4">
-                <div class="js--wp-4">
-                    <p class="countries-title-38">2 <span><img src="./img/network-icon.svg"></span></p>
-                    <p class="section-title-text">Countrıes</p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="js--wp-4">
+                        <p class="countries-title-38">2 <span><img src="./img/network-icon.svg"></span></p>
+                        <p class="section-title-text">Countrıes</p>
+                    </div>
+                    <p class="section-text"><strong>Headquarter</strong> in London, UK</p>
+                    <p class="section-text"><em>Phone: </em>info@unicraft.io</p>
+                    <p class="section-text"><em>Email: </em>+9 0000 00 00</p>
+                    <p class="section-text"><strong>Side Office</strong> in Istanbul, TURKEY</p>
                 </div>
-                <p class="section-text"><strong>Headquarter</strong> in London, UK</p>
-                <p class="section-text"><em>Phone: </em>ccc@unicraft.io</p>
-                <p class="section-text"><em>Email: </em>+9 0000 00 00</p>
-                <p class="section-text"><strong>Side Office</strong> in Istanbul, TURKEY</p>
+                <div class="col-lg-8">
+                    <div id="map" style="width: 100%; height: 650px;"></div>
+                </div>
             </div>
-            <div class="col-lg-8">
-		        <div id="map" style="width: 100%; height: 650px;"></div>
-            </div>
-          </div>
         </div>
     </section>
 
     <footer class="footer-section footer-bg">
         <div class="container-fluid">
             <div class="row">
-            <div class="col-md-2 col-sm-12">
-                <p class="footer-unicraft text-center text-uppercase text-nowrap">UnıCraft LTD&#46;</p>
-            </div>
-            <div class="col-md-8 col-sm-12">
-                <p class="footer-unicraft text-center text-nowrap">Copyright &copy; 2018</p>
-            </div>
+                <div class="col-md-2 col-sm-12">
+                    <p class="footer-unicraft text-center text-uppercase text-nowrap">UnıCraft LTD&#46;</p>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <p class="footer-unicraft text-center text-nowrap">Copyright &copy; 2018</p>
+                </div>
 
-            <div class="col-md-2 col-sm-12">
-                <ul class="text-center text-nowrap">
-                  <li>
-                    <a href="#"><i class="fab fa-linkedin small-icon"></i></a>
-                    <a href="#"><i class="fab fa-github-square small-icon"></i></a>
-                    <a href="#"><i class="fab fa-twitter-square small-icon"></i></a>
-                  </li>
-                </ul>
-              </div>
+                <div class="col-md-2 col-sm-12">
+                    <ul class="text-center text-nowrap">
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin small-icon"></i></a>
+                            <a target="_blank" href="https://github.com/"><i class="fab fa-github-square small-icon"></i></a>
+                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter-square small-icon"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
     <script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
     <script type="text/javascript" src="./scripts/amchart.js"></script>
     <script src="./scripts/jquery.waypoints.min.js"></script>
     <script src="./scripts/app.js"></script>
 </body>
+
 </html>
