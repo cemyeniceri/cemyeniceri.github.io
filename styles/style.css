@@ -13,6 +13,10 @@ body {
     font-size: 2rem;
 }
 
+.navbar-toggler-icon{
+    font-size: 1.25em;
+}
+
 .nav-link:link,
 .nav-link:visited {
     color: #e8930c !important;
